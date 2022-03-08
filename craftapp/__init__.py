@@ -19,3 +19,4 @@ server.config["SQLALCHEMY_DATABASE_URI"] = f"postgresql://{username}:{password}@
 
 db = SQLAlchemy(server)
 
+from craftapp import routes
